@@ -1,0 +1,31 @@
+.nav {
+  padding: 0 7rem;
+  /* background-color: #F15A59; */
+  background-color: #d4cbb3;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a:link,
+.nav a:visited {
+  font-family: "Pacifico", cursive;
+  text-decoration: none;
+  color: #c51605;
+  font-size: 1rem;
+}
+
+.nav a:global(.active) {
+  color: #CECE5A;
+}
+
+
+a.ctaLink:link,
+a.ctaLink:visited {
+  background-color: #ffe17b;
+  padding: 0.2rem 2rem;
+  border-radius: 10px;
+}

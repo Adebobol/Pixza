@@ -1,0 +1,19 @@
+.pixza {
+  background-image: url(/public/people-eating-pizza.jpg);
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+.pixza .heading {
+  font-size: 2rem;
+  color: #FD8D14;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

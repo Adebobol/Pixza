@@ -1,0 +1,14 @@
+.order {
+  background-color: #FAF3F0;
+  height: 100vh;
+  cursor: pointer;
+}
+
+.order .All {
+  /* height: 100%; */
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem 2rem;
+  padding: 0 7rem;
+}

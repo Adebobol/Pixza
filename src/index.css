@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=PT+Sans+Narrow&family=Pacifico&family=Quicksand:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: "PT Sans Narrow", sans-serif; */
+  /* font-family: "Caprasimo", cursive; */
+  color: black;
+}
+
+.cta:link,
+.cta:visited {
+  display: inline-block;
+  background-color: #fd8d14;
+  color: #4f4557;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+}

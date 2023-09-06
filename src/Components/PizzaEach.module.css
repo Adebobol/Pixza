@@ -1,0 +1,36 @@
+.pizzaEach {
+  display: flex;
+  /* width: 20rem; */
+  /* height: 20rem; */
+  color: #ff090c;
+}
+
+.pizzaEach .info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-family: "Quicksand", sans-serif;
+}
+
+.pizzaEach img {
+  width: 8rem;
+  height: 8rem;
+  /* border-radius: 15rem; */
+}
+
+.pizzaEach .cart {
+  color: #000000;
+  border: 2px solid #ff090c;
+  width: fit-content;
+}
+
+a:link {
+  text-decoration: none;
+  padding: 0.2rem 1rem;
+  border-radius: 2rem;
+}
+
+.pizzaEach .but {
+  display: flex;
+  gap: 0.5rem;
+}
